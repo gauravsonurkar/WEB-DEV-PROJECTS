@@ -1,0 +1,161 @@
+/*big tablet to 1200px(width smaller than the 1140px)*/
+@media only screen and (max-width:1200px){
+    .row{
+        width: 100%;
+        padding-left: 0 2%;
+    }
+}
+
+/* small tablets to big tablet:from 767-1023 */
+@media only screen and (max-width:1023px){
+    body{
+        font-size: 18px;
+    }
+    
+    section{
+        padding: 60px 0;
+    }
+    .dish-1 {
+        height: 300px;
+      }
+      .img-discount{
+        height: 230px;
+        }
+        .section-menu .small-para{
+            font-size: 20px;
+        }
+        .small-para{
+            font-size: 18px;
+        }
+        .leaf{
+            height: 300px;
+        }
+        .logo-light {
+            
+            height: 80px;
+            
+          }
+          h1 {
+            font-size: 300%;
+          }
+          h4{
+              font-size: 140%;
+          }
+          .img-top{
+              height: 230px;
+          }
+          .icon{
+            font-size: 18px;
+            padding: 5px;
+          }
+}
+/*small phones to small tablet:from 481px-767px*/
+@media only screen and (max-width:767px){
+    body{
+        font-size: 16px;
+    }
+    section{
+        padding: 30px 0;
+    }
+    .row,
+    .hero-section-1{
+        padding: 0 4%;
+    }
+    .col{
+        width: 100%;
+        margin: 0 0 4% 0;
+      }
+    .dish-1 {
+        height: 200px;
+      }
+      .leaf{
+        height: 200px;
+    }
+.card-para,.disc-para{
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 200%;
+  }
+  h4{
+      font-size: 100%;
+  }
+  .dish-1{
+      height: 230px;
+  }
+  .hero-section-1{
+      padding: 0;
+  }
+  .small-para{
+      width: 40%;
+  }
+  .logo-light{
+      height: 60px;
+  }
+  .mobile-nav-icon{
+    display: inline-block;
+}
+.main-nav{display: none;}
+.main-nav.active{display: block;}
+.mobile-nav-icon{
+    display: inline-block;
+}
+.main-nav{
+float: left;
+margin-top: 20px;
+text-align: center;
+}
+.main-nav li{
+display: block;
+}
+.backdrop {
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.071);
+    z-index: 99;
+    cursor: pointer;
+  }
+
+
+  .backdrop.active {
+    display: block;
+  }
+.main-nav li a:link,
+.main-nav li a:visited{
+display: block;
+border: 0;
+padding: 10px 0;
+font-size: 100%;
+font-weight: 900;
+z-index: 999;
+}
+
+
+.sticky .main-nav{margin-top: 10px;}
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited{padding: 10px 0;}
+
+.sticky .mobile-nav-icon{ margin-top: 10px;}
+
+.sticky .mobile-nav-icon i{color: #b8b8b8;}
+
+
+}
+/*small phones:from 0px-480px*/
+
+@media only screen and (max-width:480px){
+
+    .section{padding: 25px;}
+  body{
+      font-size: 15px;
+  }
+.dish-1{
+    height: 200px;
+}
+}

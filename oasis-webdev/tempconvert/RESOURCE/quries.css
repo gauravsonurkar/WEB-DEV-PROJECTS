@@ -1,0 +1,36 @@
+
+@media only screen and (max-width: 1023px) {
+  body {
+    font-size: 18px;
+  }
+
+  h1 {
+    font-size: 130%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  body {
+    font-size: 16px;
+  }
+
+  #controls-container {
+    display: block;
+  }
+
+  h1 {
+    font-size: 120%;
+  }
+
+  input,
+  select,
+  #btn {
+    margin-top: 10px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+}

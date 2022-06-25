@@ -1,0 +1,66 @@
+@media only screen and (max-width:1200px) {
+    .row {
+        width: 100%;
+        padding: 0 2%;
+    }
+
+    body {
+        font-size: 17px;
+    }
+
+    .hero-box {
+        width: 100%;
+        padding: 0 2%;
+    }
+}
+
+@media only screen and (max-width:1023px) {
+    body {
+        font-size: 16px;
+    }
+
+    .profile {
+        height: 140px;
+
+    }
+
+}
+
+@media only screen and (max-width:767px) {
+    body {
+        font-size: 14px;
+    }
+
+    .col {
+        width: 100%;
+        margin: 0 0 4% 0%;
+    }
+
+
+    .timeline-content .date {
+        font-size: 8px;
+    }
+
+    .profile {
+        height: 120px;
+
+    }
+
+    .timeline-content h1 {
+        font-size: 19px;
+    }
+
+    .timeline-content .date {
+        font-size: 8px;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    body {
+        font-size: 12px;
+    }
+
+    .timeline-content h1 {
+        font-size: 16px;
+    }
+}

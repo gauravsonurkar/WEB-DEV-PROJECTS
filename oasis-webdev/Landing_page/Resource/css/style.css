@@ -1,0 +1,404 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  background-color: rgba(113, 176, 109, 0.912);
+  color: #ffffff;
+  font-family: Nanum Brush Script, Raleway, arial, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+.clearfix:after {
+  content: ".";
+  clear: both;
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+
+.row {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+section {
+  padding: 80px 5px;
+}
+
+/*---------------link------------------ */
+.main-nav li a:link,
+.main-nav li a:visited {
+  text-decoration: none;
+  color: #fff;
+  padding-bottom: 10px;
+  border-bottom: 2px solid transparent;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+  border-bottom: 2px solid #ffffff;
+  transition: border-bottom 0.8s;
+}
+
+/* Header */
+header {
+  background: linear-gradient(rgba(89, 136, 133, 0.7), rgba(120, 76, 126, 0.7)),
+    url(/Resource/img/header_background.png);
+  background-size: cover;
+  height: 100vh;
+  width: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+header nav {
+  padding: 25px;
+  font-family: raleway;
+}
+
+.logo-light {
+  width: auto;
+  height: 100px;
+  float: left;
+}
+
+.logo-black {
+  display: none;
+  width: auto;
+  height: 50px;
+  float: left;
+  margin: 5px 0;
+}
+
+.main-nav {
+  list-style: none;
+  text-align: center;
+  float: right;
+  display: inline-flex;
+}
+
+.main-nav li {
+  padding: 15px;
+}
+
+/*mobile-navi*/
+
+.mobile-nav-icon {
+  float: right;
+  margin-top: 30px;
+  cursor: pointer;
+  display: none;
+  z-index: 999;
+}
+
+.mobile-nav-icon i {
+  font-size: 200%;
+  color: rgb(199, 199, 199);
+  position: fixed;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.993);
+  box-shadow: 0 2px 2px #bebebe;
+  z-index: 9999;
+  color: #000000;
+  text-align: center;
+}
+
+.sticky .main-nav {
+  margin-top: 10px;
+  
+}
+
+.sticky.main-nav li a:link,
+.sticky.main-nav li a:visited {
+  padding: 10px 0;
+  color: #000000;
+  text-align: center;
+}
+
+.sticky .logo-light {
+  display: none;
+}
+
+.sticky .logo-black {
+  display: block;
+}
+
+/* ---------------heading----------- */
+h1 {
+  color: rgb(255, 255, 255);
+  font-size: 350%;
+  text-transform: uppercase;
+  font-style: italic;
+  font-weight: 600;
+}
+
+h2 {
+  color: #000000;
+  font-size: 400%;
+  text-transform: uppercase;
+  font-style: italic;
+  font-weight: 500;
+  text-align: center;
+  padding: 20px;
+}
+
+h4 {
+  color: #fff;
+  font-size: 150%;
+  text-transform: uppercase;
+  font-style: italic;
+  font-weight: 500;
+}
+
+h5 {
+  color: #000000;
+  font-family: raleway;
+  font-style: italic;
+  font-size: 130%;
+}
+
+/* hero-section */
+.leaf {
+  float: right;
+  width: auto;
+  height: 350px;
+  position: absolute;
+  bottom: -16%;
+  right: -1%;
+  z-index: 999;
+  transform: translate(-50, -50%);
+}
+
+.dish-1 {
+  width: auto;
+  height: 500px;
+}
+
+.hero-section-1 {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+}
+
+.hero-section-1 h1 {
+  margin: 20px 0;
+}
+
+.hero-section-2 {
+  position: absolute;
+  top: 25%;
+  right: 10%;
+  transform: translate(-50% -50%);
+}
+
+/* --------button----------- */
+.btn-ghost {
+  background-color: rgb(32, 123, 117);
+  color: rgb(248, 239, 239);
+  border: 1px solid transparent;
+  font-size: 20px;
+  font-family: raleway;
+  font-weight: 600;
+  padding: 10px 10px;
+  border-radius: 50px;
+}
+
+.btn-ghost:hover {
+  background-color: rgba(255, 255, 255, 0.722);
+}
+
+/* small-para */
+.small-para {
+  text-align: justify;
+  width: 60%;
+  margin: 0;
+}
+
+.card-para {
+  text-align: justify;
+  width: 90%;
+}
+
+/* section-menu */
+.section-menu {
+  color: #000000;
+}
+
+.section-menu .small-para {
+  text-align: center;
+  margin: auto;
+  font-family: raleway;
+  font-size: 18px;
+}
+
+.dish {
+  padding: 20px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.img-top {
+  width: auto;
+  height: 250px;
+}
+
+.card {
+  padding: 20px;
+}
+
+.btn-full {
+  text-decoration: none;
+  background-color: #000000;
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+  padding: 10px;
+  width: auto;
+  border-radius: 50px;
+  box-shadow: 1px 1px 1px 1px #000000d7;
+  transition: 0.8 s;
+}
+
+.section-menu .btn-full:hover {
+  background-color: transparent;
+  color: #000000;
+  transition: 0.8s;
+}
+
+/* section-our-story */
+.section-our-story {
+  background-color: #000000;
+  color: #fff;
+  padding: 60px;
+}
+
+.section-our-story .small-para {
+  font-size: 24px;
+  width: 80%;
+}
+
+.section-our-story h2 {
+  margin-bottom: 30px;
+}
+
+.section-our-story .btn-full {
+  background-color: #fff;
+  color: #000000;
+}
+
+.section-our-story .btn-full:hover {
+  background-color: rgb(184, 184, 184);
+}
+
+/* section-discount */
+.section-discount {
+  padding: 80px 0;
+}
+
+.img-discount {
+  width: 100;
+  height: auto;
+  padding: 0;
+  margin: 0;
+}
+
+.section-discount h1 {
+  color: #000000;
+  font-size: 350%;
+  font-weight: 600;
+  margin: 0;
+}
+
+.disc-para {
+  color: #090909;
+  font-size: 110%;
+  width: 58%;
+  padding: 10px;
+  margin: 0;
+  text-align: justify;
+}
+
+.section-discount .btn-full:hover {
+  background-color: rgb(253, 253, 253);
+  color: #dd2525;
+  transition: 0.8s;
+}
+
+
+/* footer */
+footer {
+  background-color: #010101;
+  padding: 80px 0;
+  color: rgb(243, 243, 243);
+  text-align: center;
+}
+
+footer h5 {
+  color: #f1efef;
+  font-family: Nanum Brush Script;
+  font-size: 250%;
+  font-weight: 900;
+}
+
+footer li {
+  list-style: none;
+  padding: 5px;
+  text-align: start;
+}
+
+footer li a:link,
+footer li a:visited {
+  text-decoration: none;
+  color: #fff;
+}
+
+footer li a:hover,
+footer li a:active {
+  color: #888888;
+}
+
+.icon {
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 20px;
+  border-radius: 50px;
+  padding: 5px;
+  float: left;
+}
+
+.icon:hover {
+  background-color: #cfcece;
+}
+
+footer ul li {
+  float: left;
+}
+
+footer ul {
+  padding: 0 12%;
+}
+
+.copyright {
+  font-family: raleway;
+  padding: 10px;
+}

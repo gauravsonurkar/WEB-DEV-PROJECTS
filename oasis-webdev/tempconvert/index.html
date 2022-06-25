@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,100;1,200;1,300;1,400&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="/vendors/css/icofont/icofont.min.css">
+<link rel="stylesheet" href="/vendors/css/grid.css"><link rel="stylesheet" href="/vendors/css/normalize.css">
+
+<link rel="stylesheet" href="/RESOURCE/style.css">
+<link rel="stylesheet" href="/RESOURCE/quries.css">
+    <title>TEMPERATURE CONVERTER</title>
+</head>
+<body>
+     <div class="container">
+        <div class="row">
+          <h1>Temperature Converter</h1>
+        </div>
+        <div class="row">
+        <form autocomplete="off" id="form">
+          <div id="controls-container">
+            <input type="number" name="degrees" placeholder="Enter Degrees" id="degrees-input">
+            <select name="unit" id="degrees-select">
+              <option class="dropdown-option" value="celsius">Celsius</option>
+              <option class="dropdown-option" value="fahrenheit">Fahrenheit</option>
+            </select>
+            <button id="btn">Convert</button>
+          </div>
+          <div id="output"></div>
+        </form>
+      </div>
+    </div>
+    <script src="/RESOURCE/script.js"></script>
+</body>
+</html>
